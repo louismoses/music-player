@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --primary-color: #fff;
+  --secondary-color: #030303;
+}
+
+.main-container {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  place-items: center;
+  place-content: center;
+}
