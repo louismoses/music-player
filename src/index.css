@@ -13,4 +13,15 @@
   display: flex;
   place-items: center;
   place-content: center;
+  background-color: #f9f7eb;
+}
+
+.music-player {
+  box-shadow: 2px 3px 40px #000;
+}
+
+.title,
+.artist-name,
+.textShadow {
+  text-shadow: 2px 2px 8px #000;
 }
