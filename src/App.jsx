@@ -13,22 +13,21 @@ function App() {
               <h2>heart</h2>
             </div>
           </div>
-          <div>
-            <div className="top-bar"></div>
+          <div className="flex flex-col gap-4">
             <div className="details">
-              <h2 className="artist-name">louis</h2>
+              <h2 className="artist-name bold-3">louis</h2>
               <h1 className="title">Simple Music Player</h1>
             </div>
-            <div className="controls">
+            <div className="progress-bar">progressbar</div>
+            <div className="song-duration flex justify-between">
+              <p className="start">00</p>
+              <p className="finish">4:54</p>
+            </div>
+            <div className="controls flex justify-between max-w-xs m-auto">
               <i className="fa-solid fa-backward"></i>
               <i className="fa-solid fa-play"></i>
               <i className="fa-solid fa-forward"></i>
             </div>
-            <div className="song-duration">
-              <p className="start">00</p>
-              <p className="finish">4:54</p>
-            </div>
-            <div className="progress-bar">asd</div>
           </div>
         </div>
       </div>
